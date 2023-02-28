@@ -9,7 +9,7 @@ let buttonLinks = [  "index.html",  "index.html",  "index.html",  "index.html"];
 function preload() {
   img = loadImage("assets/logotype.png");
   for (let i = 0; i < 4; i++) {
-    buttonImages[i] = loadImage(`path/button-${i}.png`);
+    buttonImages[i] = loadImage(`path/button-${i}.svg`);
   }
 }
 
